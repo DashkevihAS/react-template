@@ -6,4 +6,8 @@ import Module from './module';
 
 const root = createRoot(document.getElementById('root'));
 
-root.render(<Module/>);
+root.render(
+
+<Module/>
+
+);

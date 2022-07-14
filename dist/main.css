@@ -1,0 +1,17 @@
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
+  \*******************************************************************************************************************************************************************************/
+@font-face {
+  font-family: Montserrat;
+  src: url(fonts/c8313bad66bf2cf4f9e6.woff2) format("woff2"), url(fonts/d27ca3cc852da1ea6803.woff) format("woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(fonts/9d07dba4961a9ee966fb.woff2) format("woff2"), url(fonts/5cf6da228040b2f5774c.woff) format("woff");
+  font-weight: 700;
+}
+body {
+  background-color: tomato;
+  font-family: Montserrat, sans-serif;
+}

@@ -35,7 +35,7 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        presets: ["@babel/preset-react", "@babel-preset-env"],
+                        presets: ["@babel/preset-react", "@babel/preset-env"],
                     }
                 }
             },
@@ -52,11 +52,11 @@ module.exports = {
             },
             {
                 test: /\.(jpg|jpeg|gif|svg|png)$/i, 
-                type: 'asset/resourсe'
+                type: 'asset/resource'
             },
             {
                 test: /\.(woff|woff2)$/i,
-                type: 'asset/resourсe',
+                type: 'asset/resource',
                 generator: {
                     filename: 'fonts/[hash][ext]'
                 }
